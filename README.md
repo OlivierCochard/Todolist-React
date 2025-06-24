@@ -6,10 +6,10 @@ $ npm run start<br>$ node mon-serveur-graphql/index.js
 
 # Images
 <table>
-	<img src="images/website_3_1.jpg" width="100%"/>
+	<img src="images/website_3_1.png" width="100%"/>
   <tr>
-  	<td><img src="images/website_3_2.jpg" width="300"/></td>
-    <td><img src="images/website_3_3.jpg" width="300"/></td>
-    <td><img src="images/website_3_4.jpg" width="300"/></td>
+  	<td><img src="images/website_3_2.png" width="300"/></td>
+    <td><img src="images/website_3_3.png" width="300"/></td>
+    <td><img src="images/website_3_4.png" width="300"/></td>
   </tr>
 </table>
