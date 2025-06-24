@@ -1,0 +1,137 @@
+import { StyleSheet } from 'react-native';
+
+const styles = StyleSheet.create({
+    main: {
+        flex: 1,
+        padding: 20,
+        alignItems: 'center',
+        justifyContent: 'center',
+        backgroundColor: '#040D12',
+    },
+    title: {
+        textTransform: 'uppercase',
+        fontWeight: 'bold',
+        height: 33,
+        color: '#93B1A6',
+        fontSize: 25,
+        marginBottom: 20,
+        textAlign: 'center',
+    },
+    tasksContainer: {
+        flex: 1,
+    },
+    switch: {
+        marginRight: 10,
+    },
+    item: {
+        height: 40,
+        width: 400,
+        padding: 10,
+        marginTop: 10,
+        borderColor: 'white',
+        backgroundColor: '#93B1A6',
+        borderWidth: 1,
+        borderRadius: 5,
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
+    },
+    itemText: {
+        color: '#040D12',
+        textAlign: 'left',
+        fontSize: 18,
+        flex: 1,
+    },
+    countText: {
+        fontSize: 16,
+        color: '#fff',
+        textAlign: 'center',
+    },
+    filterContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginLeft: 10,
+        marginRight: 10,
+        width: '50%',
+        marginBottom: 20,
+    },
+    buttonContainer: {
+        flexDirection: 'row',
+    },
+    buttonIcon: {
+        padding: 10,
+        marginLeft: 5,
+    },
+    icon: {
+        width: 25,
+        height: 25,
+        marginLeft: -15,
+        textAlign: 'right',
+    },
+    input: {
+        width: '30%',
+        height: 40,
+        color: 'white',
+        placeholderTextColor: "#93B1A6",
+        borderColor: '#93B1A6',
+        borderWidth: 1,
+        marginBottom: 10,
+        paddingLeft: 10,
+        borderRadius: 4,
+    },
+    errorText: {
+        color: 'yellow',
+        textAlign: 'center',
+        marginBottom: 10,
+    },
+    linkText: {
+        color: '#93B1A6',
+        marginTop: 20,
+        textAlign: 'center',
+    },
+    link: {
+        textDecorationLine: 'underline',
+        color: 'white',
+    },
+    button: {
+        justifyContent: 'center',
+        marginHorizontal: 5,
+        width: '30%',
+        height: 50,
+        backgroundColor: '#93B1A6',
+        borderRadius: 10,
+        color: 'black',
+    },
+    buttonText: {
+        textTransform: 'uppercase',
+        textAlign: 'center',
+        color: '#040D12',
+        fontSize: 18,
+    },
+    inputForm: {
+        width: '150%',
+        height: 40,
+        color: 'white',
+        borderColor: '#93B1A6',
+        borderWidth: 1,
+        marginBottom: 10,
+        paddingLeft: 10,
+        borderRadius: 4,
+    },
+    buttonForm: {
+        justifyContent: 'center',
+        alignItems: 'center',
+        marginHorizontal: 5,
+        width: '150%',
+        height: 50,
+        backgroundColor: '#93B1A6',
+        borderRadius: 10,
+    },
+    formContainer: {
+        alignItems: 'center',
+        marginBottom: 20,
+    },
+});
+
+export default styles;
